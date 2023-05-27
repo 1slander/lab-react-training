@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.idCard {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: 1em;
+}
+
+.idCard span {
+  font-weight: 700;
+}
+.idcard-body {
+  font-size: 0.9rem;
+  text-align: left;
+  width: 70%;
+}
+
+.idcard-img {
+  padding-left: 1em;
+  order: -1;
+}
