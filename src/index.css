@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -36,4 +39,107 @@ code {
 .idcard-img {
   padding-left: 1em;
   order: -1;
+}
+
+/* Box Color */
+
+.rgb {
+  border: 1px solid black;
+  margin: 1em;
+  padding: 2em 4em;
+  font-weight: 700;
+}
+
+/* Credit Card */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.creditCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  padding: 1em 3em;
+  border-radius: 5px;
+  width: 330px;
+  height: 210px;
+}
+.creditCard-logo {
+  width: 40px;
+  align-self: flex-end;
+  margin-bottom: 1em;
+}
+
+.creditCard-number {
+  font-size: 0.85rem;
+}
+
+.creditCard-number span {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.creditCard-date {
+  display: flex;
+  text-align: left;
+  gap: 0.5em;
+  margin: 0;
+}
+
+.creditCard-owner {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+/* Rating */
+
+.stars {
+  font-size: 2rem;
+}
+
+/* Driver Card */
+
+.driver-card {
+  background-color: #425cbb;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 1em 0;
+}
+.driver-card > * {
+  margin: 5px;
+}
+
+.driver-card-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.driver-card-body {
+  margin: 0;
+}
+
+.driver-card-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  display: block;
+}
+
+.driver-card-rating {
+  font-size: 2rem;
+  margin: 0;
+}
+.driver-card-text {
+  margin-top: 0;
+  display: block;
 }

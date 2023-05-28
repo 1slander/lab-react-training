@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Greetings(props) {
   const { lang, children } = props;
   let greeting = '';
