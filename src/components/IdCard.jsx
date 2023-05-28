@@ -13,7 +13,7 @@ function IdCard({ lastName, firstName, gender, height, birth, picture }) {
           <span>Gender:</span> {gender}
         </p>
         <p>
-          <span>Height:</span> {height}
+          <span>Height:</span> {height / 100}m
         </p>
         <p>
           <span>Birth:</span> {birth.toDateString()}

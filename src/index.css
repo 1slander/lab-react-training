@@ -29,6 +29,10 @@ code {
   width: 70%;
 }
 
+.idcard-body p {
+  margin: 0.75em 0;
+}
+
 .idcard-img {
   padding-left: 1em;
   order: -1;
