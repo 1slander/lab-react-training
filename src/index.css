@@ -153,3 +153,8 @@ code {
   font-weight: 700;
   color: gray;
 }
+
+.diceImg {
+  width: 250px;
+  cursor: pointer;
+}
