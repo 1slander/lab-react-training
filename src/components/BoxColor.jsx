@@ -14,7 +14,11 @@ function BoxColor({ r, g, b }) {
 
   return (
     <div className="rgb" style={divStyle}>
-      rgb({r},{g},{b})<p>{rgbToHex(r, g, b)}</p>
+      <p>
+        rgb({r},{g},{b})
+      </p>
+
+      <p>{rgbToHex(r, g, b)}</p>
     </div>
   );
 }

@@ -143,3 +143,13 @@ code {
   margin-top: 0;
   display: block;
 }
+
+.btnLike {
+  padding: 2em 2.85em;
+  margin: 2em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: gray;
+}
