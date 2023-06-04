@@ -158,3 +158,25 @@ code {
   width: 250px;
   cursor: pointer;
 }
+
+.carousel-img {
+  width: 200px;
+  margin: 1em;
+}
+
+.carousel-menu > button {
+  margin: 1em;
+  padding: 1.25em 2em;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  background-color: #425cbb;
+  color: #fff;
+  cursor: pointer;
+}
+.carousel-menu > button:hover,
+.carousel-menu > button:focus {
+  background-color: #2b3d7c;
+  color: #fff;
+}
