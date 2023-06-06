@@ -194,3 +194,20 @@ code {
 .redBox {
   background-color: red;
 }
+
+.facebook-body {
+  display: flex;
+  border: 1px solid black;
+  margin: 1em;
+  gap: 1em;
+  font-size: 1.5rem;
+  width: 70%;
+}
+.facebook-img {
+  width: 200px;
+  margin: 0.5em;
+}
+
+.facebook-info > p > span {
+  font-weight: 700;
+}
