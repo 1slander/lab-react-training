@@ -13,6 +13,7 @@ import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
+import NumbersTable from './components/NumbersTable';
 
 function App() {
   return (
@@ -26,7 +27,6 @@ function App() {
         birth={new Date('1992-07-14')}
         picture="https://randomuser.me/api/portraits/men/44.jpg"
       />
-
       <IdCard
         lastName="Delores "
         firstName="Obrien"
@@ -39,7 +39,6 @@ function App() {
       <h2>Greetings</h2>
       <Greetings lang="es">Pepe</Greetings>
       <Greetings lang="jp">幸平 創真</Greetings>
-
       <hr />
       <h2>Random</h2>
       <Random min={1} max={6} />
@@ -61,7 +60,6 @@ function App() {
         bgColor="#11aa99"
         color="white"
       />
-
       <CreditCard
         type="Master Card"
         picture="https://1000marcas.net/wp-content/uploads/2019/12/logo-Mastercard.png"
@@ -73,7 +71,6 @@ function App() {
         bgColor="#eeeeee"
         color="#222222"
       />
-
       <CreditCard
         type="Visa"
         picture="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Visa_Logo.png/640px-Visa_Logo.png"
@@ -85,7 +82,6 @@ function App() {
         bgColor="#ddbb55"
         color="white"
       />
-
       <hr />
       <h2>Rating</h2>
       <Rating>0</Rating>
@@ -94,7 +90,6 @@ function App() {
       <Rating>3</Rating>
       <Rating>4</Rating>
       <Rating>5</Rating>
-
       <hr />
       <h2>DriverCard</h2>
       <DriverCard
@@ -106,7 +101,6 @@ function App() {
           licensePlate: 'CO42DE',
         }}
       />
-
       <DriverCard
         name="Dara Khosrowshahi"
         rating={4.9}
@@ -135,6 +129,9 @@ function App() {
           'https://randomuser.me/api/portraits/men/2.jpg',
         ]}
       />
+      <hr />
+      <h2>NumbersTable</h2>
+      <NumbersTable limit={12} />
     </div>
   );
 }

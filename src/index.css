@@ -180,3 +180,17 @@ code {
   background-color: #2b3d7c;
   color: #fff;
 }
+
+.numberTable {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 30px;
+}
+
+.numberTable > div {
+  width: 20px;
+  text-align: center;
+}
+.redBox {
+  background-color: red;
+}
